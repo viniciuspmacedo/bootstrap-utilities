@@ -1,0 +1,5 @@
+:root,
+    [data-bs-theme=light]{
+        --bs-warning-rgb: 255,111,0;
+        --bs-success-rgb: 125,13,0;
+    }
