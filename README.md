@@ -20,3 +20,21 @@ A Bootstrap oferece cores padrões para utilização.
 
 Neste caso as classe do Bootstap irão prevalecer sobre nossas classes uma vez que o Bootstrap usa a 'property' ***!important***;
 Para alterar esta prevalecência devemos usar o 'property' ***!important*** na nossa classe.
+
+## Margin e padding:
+O Bootstrap oferece 5 níveis de margin e padding, os dois trabalham com a mesma lógica.
+Para adicionar uma margem a todos os lados de um elemento utilizamos a classe "m-<'numero'>".
+```
+<p class="m-1">Margem 1 em todos os lados</p>
+```
+Para adicionar margem em apenas um lado utilizamos as letras *s, t, e, b*, que se referem a start, top, end e bottom.
+Exemplo:
+```
+<h1 class="mt-5">Margem superior de 5</h1>
+``` 
+Também é possível aplicar apenas ao eixo x ou y adicionando estas letras à classe.
+```
+<h2 class="mx-1 my-3">Margem 1 nos lados, margem 3 em cima e embaixo</h2>
+```
+
+Para adicionar o padding substituimos o "m" pelo "p".
