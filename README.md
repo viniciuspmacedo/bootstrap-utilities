@@ -38,3 +38,37 @@ Também é possível aplicar apenas ao eixo x ou y adicionando estas letras à c
 ```
 
 Para adicionar o padding substituimos o "m" pelo "p".
+
+## Container
+
+A classe container oferece uma maneira fácil de centralizar um conteudo ao seu elemento pai.
+
+## Breakpoint
+
+O Bootstrap é feito pensando no desenvolvimento "mobile-first" e oferece 6 breakpoints padrões:
+|propriedade|tamanho|
+|-----------|-------|
+|xs         |0px    |
+|sm         |576px  |
+|md         |768px  |
+|lg         |992px  |
+|xlg        |1200px |
+|xxl        |1400px |
+|           |       |
+
+Vale lembrar que para utilizar breakpoint devemos usá-lo no nome da classe entre a propriedade e o valor.
+{propriedade}-{breakpoint}-{valor}
+
+## Tamanho
+
+Para tamanhos podemos aplicar as propriedades w (width) e h (heigh) seguidas dos valores 0 - 25 - 50 - 75 ou 100 (valores referentes a porcentagem)
+
+## Display
+
+Podemos alterar o display do elemento com a classe "d-inline", "d-inlineblock" ou "d-none"
+
+## Flexbox
+
+Aplica-se o display flex no elemento utilizando a classe "d-flex". A lógica de aplicação é a mesma que no CSS, devemos apenas ficar atentos ao nome da classe.
+
+[link para documentação](https://getbootstrap.com/docs/5.3/utilities/flex/)
